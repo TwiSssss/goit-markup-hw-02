@@ -1,4 +1,127 @@
 body {
- font-family: "Roboto", sans-serif;
-  color:;
- background-color:  #fff; }
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-second {
+  color: #4d5ae5;
+}
+.header-feature {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-feature-list {
+  color: #2e2f42;
+}
+.header-feature-list:hover {
+  color: #404bbf;
+}
+.header-feature-list:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-box {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-box-item {
+  color: #434455;
+}
+.address-box-item:hover {
+  color: #404bbf;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+p {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.sec-1 {
+  background: #2e2f42;
+}
+.sec-1-btn {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 189px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+.sec-1-btn:hover {
+  background: #404bbf;
+}
+.sec-1-btn-text {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.sec-3 {
+  background: #f4f4fd;
+}
+.sec-3-feature {
+  text-align: center;
+}
+footer {
+  background: #2e2f42;
+}
+footer p {
+  color: #f4f4fd;
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
