@@ -7,6 +7,7 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
+
 a {
   text-decoration: none;
 }
@@ -33,7 +34,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-feature-list:first-child a:focus {
+.header-feature-list:focus {
  color: #404bbf;
 }
 .header-feature-list {
@@ -61,6 +62,9 @@ ol {
   color: #404bbf;
 }
 .address-box-item:active {
+ color: #404bbf;
+}
+.address-box-item:focus {
  color: #404bbf;
 }
 h1 {
@@ -91,27 +95,33 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-1 {
+.section-one {
   background: #2e2f42;
 }
-.sec-1-btn {
+.sec-one-btn {
+ font-weight: 500;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: #ffffff;
   cursor: pointer;
-  padding: 16px 32px;
   background: #4d5ae5;
 }
-.sec-1-btn:hover {
+.sec-one-btn:hover {
   background: #404bbf;
 }
-.sec-1-btn-text {
+.sec-one-btn:focus {
+ background: #404bbf;
+}
+.sec-one-btn-text {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
 }
 
-.section-3 {
+.section-thee {
   background: #f4f4fd;
 }
-.sec-3-feature {
+.sec-thee-feature {
   text-align: center;
 }
 footer {
